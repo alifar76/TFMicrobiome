@@ -19,6 +19,18 @@ A microbiome dataset consists of a count matrix in which the bacteria characteri
  
 In this POC analysis, we are using the infection status of the individuals (HIV positive vs. negative) as the response variable and count of bacteria (OTUs) as explanatory variables in the model building process. For simple illustrative purposes, we will assess the accuracy.
 
+Required Packages
+------
+
+- [Enthought Canopy Python 2.7.6 | 64-bit](https://store.enthought.com/downloads/#default)
+- [virtualenv 15.0.1](https://virtualenv.pypa.io/en/stable/installation/)
+- [TensorFlow 0.9.0](https://www.tensorflow.org/versions/r0.9/get_started/os_setup.html#virtualenv-installation)
+- [NumPy 1.11.1](http://www.scipy.org/install.html)
+- [pandas 0.18.1](https://pypi.python.org/pypi/pandas/0.18.1/#downloads)
+
+The Mac OS X, CPU only, Python 2.7 version of TensorFlow was installed via pip in a virtualenv on my MacBook Pro having OS X El Capitan Version 10.11.4
+
+
 Result
 ------
 
