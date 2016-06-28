@@ -22,4 +22,4 @@ In this POC analysis, we are using the infection status of the individuals (HIV 
 Result
 ------
 
-Using a [simple softmax regression model](https://www.tensorflow.org/versions/r0.9/tutorials/mnist/beginners/index.html), we are getting an accuracy of 0.764706. Other models will be implemented soon.
+Using a [simple softmax regression model](https://www.tensorflow.org/versions/r0.9/tutorials/mnist/beginners/index.html), we are getting an accuracy of 0.909. Other models will be implemented soon.
