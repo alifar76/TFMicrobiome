@@ -7,7 +7,8 @@ import math
 
 otuinfile = 'lozupone_hiv.txt'
 metadata = 'mapfile_lozupone.txt'
-train_ratio = 0.66
+# Split 55% of data as training and 45% as test
+train_ratio = 0.55
 
 
 a = pd.read_table(otuinfile,skiprows=1,index_col=0)
@@ -61,7 +62,8 @@ y = tf.nn.softmax(tf.matmul(x, W) + b)
 y_ = tf.placeholder(tf.float32, [None, 2])
 
 cross_entropy = tf.reduce_mean(-tf.reduce_sum(y_ * tf.log(y), reduction_indices=[1]))
-train_step = tf.train.GradientDescentOptimizer(0.5).minimize(cross_entropy)
+#GradientDescentOptimizer(0.5) can be used as well
+train_step = tf.train.AdamOptimizer(1e-2).minimize(cross_entropy)
 init = tf.initialize_all_variables()
 sess = tf.Session()
 sess.run(init)
