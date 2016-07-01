@@ -11,7 +11,7 @@ Currently, work is in under progress for this proof-of-concept project. The READ
 Background
 ------
 
-This is a proof-of-concept pipeline based on the [TensorFlow](https://www.tensorflow.org/) library developed by Google. The idea is simple: using a publicly available microbiome dataset, we wish to develop a deep-learning based diagnostic platform using TensorFlow.
+This is a proof-of-concept pipeline based on the [TensorFlow](https://www.tensorflow.org/) library developed by Google. The idea is simple: using a publicly available microbiome dataset, we wish to develop a deep-learning, diagnostic platform based on TensorFlow.
  
 For this purpose, dataset corresponding to a [microbiome study by Lozupone et al.](http://www.ncbi.nlm.nih.gov/pubmed/24034618), was obtained from the [Qiita database](https://qiita.ucsd.edu/). 
 
