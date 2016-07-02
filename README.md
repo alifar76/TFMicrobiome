@@ -5,7 +5,7 @@ A proof-of-concept demo using deep-learning for diagnostics
 DISCLAIMER
 ------
 
-Currently, work is in under progress for this proof-of-concept project. The README file along with the ```tensorflow_microbiome.py``` script will keep on changing accordingly. 
+Currently, work is in under progress for this proof-of-concept project. The README file along with the Python scripts will keep on changing accordingly. 
 
 
 Background
@@ -28,10 +28,24 @@ Required Packages
 - [NumPy 1.11.1](http://www.scipy.org/install.html)
 - [pandas 0.18.1](https://pypi.python.org/pypi/pandas/0.18.1/#downloads)
 
-The Mac OS X, CPU only, Python 2.7 version of TensorFlow was installed via pip in a virtualenv on my MacBook Pro having OS X El Capitan Version 10.11.4
+The Mac OS X, CPU only, Python 2.7 version of TensorFlow was installed via pip in a virtualenv on my MacBook Pro having OS X El Capitan Version 10.11.4.
+
+How to
+------
+
+There are two scripts, each of which implement a separate model. They can be simply run by the following command:
+
+- ```python softmax.py```
+- ```python cnn.py```
+
+The output will the accuracy of the model.
 
 
 Result
 ------
 
-Using a [simple softmax regression model](https://www.tensorflow.org/versions/r0.9/tutorials/mnist/beginners/index.html), we are getting an accuracy of 0.909. Other models will be implemented soon.
+Using a [simple softmax regression model](https://www.tensorflow.org/versions/r0.9/tutorials/mnist/beginners/index.html), we are getting an accuracy of 0.909. 
+
+Using a [convolutional neural network](https://www.tensorflow.org/versions/r0.8/tutorials/mnist/pros/index.html), we are getting an accuracy of 0.772.
+
+Other models will be implemented soon.
