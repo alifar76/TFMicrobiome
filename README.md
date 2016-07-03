@@ -44,8 +44,8 @@ The output will the accuracy of the model.
 Result
 ------
 
-Using a [simple softmax regression model](https://www.tensorflow.org/versions/r0.9/tutorials/mnist/beginners/index.html), we are getting an accuracy of 0.909. 
+Using a [simple softmax regression model](https://www.tensorflow.org/versions/r0.9/tutorials/mnist/beginners/index.html), the accuracy is 0.909. 
 
-Using a [convolutional neural network](https://www.tensorflow.org/versions/r0.8/tutorials/mnist/pros/index.html), we are getting an accuracy of 0.772.
+Using a [convolutional neural network](https://www.tensorflow.org/versions/r0.8/tutorials/mnist/pros/index.html), the accuracy is 0.772.
 
 Other models will be implemented soon.
