@@ -1,6 +1,6 @@
 # TFMicrobiome
 
-A proof-of-concept demo using deep-learning for diagnostics
+A proof-of-concept demo of deep-learning for diagnostics (using microbiome data).
 
 DISCLAIMER
 ------
