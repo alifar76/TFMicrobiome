@@ -30,6 +30,8 @@ Required Packages
 
 The Mac OS X, CPU only, Python 2.7 version of TensorFlow was installed via pip in a virtualenv on my MacBook Pro having OS X El Capitan Version 10.11.4.
 
+Additionally, I'm using [scikit-learn 0.17.1](http://scikit-learn.org/stable/install.html) to compare performance of more classical machine learning algorithms with deep learning methods in TensorFlow.
+
 How to
 ------
 
@@ -47,5 +49,7 @@ Result
 Using a [simple softmax regression model](https://www.tensorflow.org/versions/r0.9/tutorials/mnist/beginners/index.html), the accuracy is 0.909. 
 
 Using a [convolutional neural network](https://www.tensorflow.org/versions/r0.8/tutorials/mnist/pros/index.html), the accuracy is 0.772.
+
+Using [random forest classifier](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html), the accuracy is around 0.863.
 
 Other models will be implemented soon.
