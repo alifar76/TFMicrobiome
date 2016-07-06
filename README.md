@@ -52,4 +52,6 @@ Using a [convolutional neural network](https://www.tensorflow.org/versions/r0.8/
 
 Using [random forest classifier](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html), as implemented in scikit-learn, the accuracy is around 0.863.
 
+Using [Support Vector Machines (SVMs)](http://scikit-learn.org/stable/modules/svm.html), as implemented in scikit-learn, the accuracy is around 0.772.
+
 Other models will be implemented soon.
