@@ -54,4 +54,8 @@ Using [random forest classifier](http://scikit-learn.org/stable/modules/generate
 
 Using [Support Vector Machines (SVMs)](http://scikit-learn.org/stable/modules/svm.html), as implemented in scikit-learn, the accuracy is around 0.772.
 
+Using [Gradient Boosting Classifier](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingClassifier.html#sklearn.ensemble.GradientBoostingClassifier), as implemented in scikit-learn, the accuracy is around 0.772.
+
 Other models will be implemented soon.
+
+It's interested to notes the SVM, CNN and Gradient Boosting are giving almost identical performance. Experimentation with parameter tuning needs to be done more.
