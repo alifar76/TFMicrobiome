@@ -58,4 +58,4 @@ Using [Gradient Boosting Classifier](http://scikit-learn.org/stable/modules/gene
 
 Other models will be implemented soon.
 
-It's interested to notes the SVM, CNN and Gradient Boosting are giving almost identical performance. Experimentation with parameter tuning needs to be done more.
+It's interesting to note that SVM, CNN and Gradient Boosting are giving almost identical performance. Experimentation with parameter tuning needs to be done more.
