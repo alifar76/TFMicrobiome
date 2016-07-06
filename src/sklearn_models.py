@@ -47,3 +47,6 @@ clf = RandomForestClassifier(n_estimators=6000)
 clf = clf.fit(X, Y.values.ravel())
 print ("Accuracy of Random Forest Classifier: "+str(clf.score(P,Q)))
 
+clf2 = svm.SVC(C=1000)
+clf2 = clf2.fit(X, Y.values.ravel())
+print ("Accuracy of SVM: "+str(clf2.score(P,Q)))
