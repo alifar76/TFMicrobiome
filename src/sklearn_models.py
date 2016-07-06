@@ -50,3 +50,7 @@ print ("Accuracy of Random Forest Classifier: "+str(clf.score(P,Q)))
 clf2 = svm.SVC(C=1000)
 clf2 = clf2.fit(X, Y.values.ravel())
 print ("Accuracy of SVM: "+str(clf2.score(P,Q)))
+
+clf3 = GradientBoostingClassifier(n_estimators=10000, learning_rate=0.01,
+max_depth=10, random_state=0).fit(X, Y.values.ravel())
+print ("Accuracy of Gradient Boosting Classifier: "+str(clf3.score(P,Q)))
