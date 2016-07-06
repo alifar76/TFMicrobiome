@@ -50,6 +50,6 @@ Using a [simple softmax regression model](https://www.tensorflow.org/versions/r0
 
 Using a [convolutional neural network](https://www.tensorflow.org/versions/r0.8/tutorials/mnist/pros/index.html), the accuracy is 0.772.
 
-Using [random forest classifier](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html), the accuracy is around 0.863.
+Using [random forest classifier](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html), as implemented in scikit-learn, the accuracy is around 0.863.
 
 Other models will be implemented soon.
