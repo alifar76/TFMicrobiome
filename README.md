@@ -56,6 +56,10 @@ Using [Support Vector Machines (SVMs)](http://scikit-learn.org/stable/modules/sv
 
 Using [Gradient Boosting Classifier](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingClassifier.html#sklearn.ensemble.GradientBoostingClassifier), as implemented in scikit-learn, the accuracy is around 0.772.
 
+Using [Gaussian Naive Bayes (GaussianNB)](http://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.GaussianNB.html#sklearn.naive_bayes.GaussianNB), as implemented in scikit-learn, the accuracy is around 0.909.
+
 Other models will be implemented soon.
 
-It's interesting to note that SVM, CNN and Gradient Boosting are giving almost identical performance. Experimentation with parameter tuning needs to be done more.
+It's interesting to note that SVM, CNN and Gradient Boosting are giving almost identical performance. 
+Gaussian NB and Softmax are also giving identical performance.
+Experimentation with parameter tuning needs to be done more.
