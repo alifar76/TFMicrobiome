@@ -1,4 +1,7 @@
+from sklearn.naive_bayes import GaussianNB
+from sklearn.ensemble import GradientBoostingClassifier
 from sklearn.ensemble import RandomForestClassifier
+from sklearn import svm
 import numpy as np
 import pandas as pd
 import math
@@ -54,3 +57,7 @@ print ("Accuracy of SVM: "+str(clf2.score(P,Q)))
 clf3 = GradientBoostingClassifier(n_estimators=10000, learning_rate=0.01,
 max_depth=10, random_state=0).fit(X, Y.values.ravel())
 print ("Accuracy of Gradient Boosting Classifier: "+str(clf3.score(P,Q)))
+
+gnb = GaussianNB()
+gnb = gnb.fit(X, Y.values.ravel())
+print ("Accuracy of Gaussian Naive Bayes Classifier: "+str(gnb.score(P,Q)))
