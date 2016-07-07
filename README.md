@@ -58,8 +58,10 @@ Using [Gradient Boosting Classifier](http://scikit-learn.org/stable/modules/gene
 
 Using [Gaussian Naive Bayes (GaussianNB)](http://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.GaussianNB.html#sklearn.naive_bayes.GaussianNB), as implemented in scikit-learn, the accuracy is around 0.909.
 
+Using [Stochastic Gradient Descent (SGD)](http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.SGDClassifier.html#sklearn.linear_model.SGDClassifier), as implemented in scikit-learn, the accuracy is around 0.772.
+
 Other models will be implemented soon.
 
-It's interesting to note that SVM, CNN and Gradient Boosting are giving almost identical performance. 
+It's interesting to note that SVM, CNN, Gradient Boosting and SGD are giving almost identical performance. 
 Gaussian NB and Softmax are also giving identical performance.
 Experimentation with parameter tuning needs to be done more.
