@@ -1,4 +1,5 @@
 from sklearn.naive_bayes import GaussianNB
+from sklearn.linear_model import SGDClassifier
 from sklearn.ensemble import GradientBoostingClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn import svm
@@ -61,3 +62,7 @@ print ("Accuracy of Gradient Boosting Classifier: "+str(clf3.score(P,Q)))
 gnb = GaussianNB()
 gnb = gnb.fit(X, Y.values.ravel())
 print ("Accuracy of Gaussian Naive Bayes Classifier: "+str(gnb.score(P,Q)))
+
+clf5 = SGDClassifier(loss="perceptron", penalty="elasticnet", 
+random_state=0).fit(X, Y.values.ravel())
+print ("Accuracy of SGDClassifier: "+str(clf5.score(P,Q)))
