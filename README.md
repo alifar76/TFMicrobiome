@@ -46,19 +46,17 @@ The output will the accuracy of the model.
 Result
 ------
 
-Using a [simple softmax regression model](https://www.tensorflow.org/versions/r0.9/tutorials/mnist/beginners/index.html), the accuracy is 0.909. 
+### TensorFlow models:
+- ``` Accuracy of [Softmax Regression model](https://www.tensorflow.org/versions/r0.9/tutorials/mnist/beginners/index.html):  0.909```
+- ``` Accuracy of [Convolutional Neural Network](https://www.tensorflow.org/versions/r0.8/tutorials/mnist/pros/index.html): 0.773 ```
 
-Using a [convolutional neural network](https://www.tensorflow.org/versions/r0.8/tutorials/mnist/pros/index.html), the accuracy is 0.772.
-
-Using [random forest classifier](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html), as implemented in scikit-learn, the accuracy is around 0.863.
-
-Using [Support Vector Machines (SVMs)](http://scikit-learn.org/stable/modules/svm.html), as implemented in scikit-learn, the accuracy is around 0.772.
-
-Using [Gradient Boosting Classifier](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingClassifier.html#sklearn.ensemble.GradientBoostingClassifier), as implemented in scikit-learn, the accuracy is around 0.772.
-
-Using [Gaussian Naive Bayes (GaussianNB)](http://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.GaussianNB.html#sklearn.naive_bayes.GaussianNB), as implemented in scikit-learn, the accuracy is around 0.909.
-
-Using [Stochastic Gradient Descent (SGD)](http://scikit-learn.org/stable/modules/generated/sklearn.linear_model.SGDClassifier.html#sklearn.linear_model.SGDClassifier), as implemented in scikit-learn, the accuracy is around 0.772.
+### scikit-learn models:
+- ``` Accuracy of Random Forest Classifier: 0.864 ```
+- ``` Accuracy of SVM: 0.864 ```
+- ``` Accuracy of Gradient Boosting Classifier: 0.773 ```
+- ``` Accuracy of Gaussian Naive Bayes Classifier: 0.909 ```
+- ``` Accuracy of Multi-layer Perceptron Classifier: 0.864 ```
+- ``` Accuracy of Blending: 0.909```
 
 Other models will be implemented soon.
 
