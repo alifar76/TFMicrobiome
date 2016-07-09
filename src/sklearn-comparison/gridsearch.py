@@ -46,11 +46,9 @@ mlp_pg = [{'algorithm': ['adam','sgd','l-bfgs'],
   'alpha': [1,1e-1,1e-2,1e-3, 1e-4,1e-5],
   'hidden_layer_sizes': [(100,), (200,), (300,), (400,),(500,)],
   'max_iter':[500], 'random_state':[0],
-  'learning_rate' : ['constant', 'invscaling', 'adaptive'],
-  'learning_rate_init':[10,1,1e-1,1e-2,1e-3,1e-4],
-  'activation':['logistic', 'tanh', 'relu']}]
+  'learning_rate' : ['constant', 'invscaling', 'adaptive']}]
 
-"""# Grid search
+# Grid search
 # No grid search for Gaussian Naive Bayes
 grid_search(RandomForestClassifier(),rf_pg,X,Y)
 # {'n_estimators': 1000, 'random_state': 0}
@@ -63,14 +61,9 @@ print ("SVM complete")
 grid_search(GradientBoostingClassifier(),gbc_pg,X,Y)
 #{'min_samples_split': 5, 'n_estimators': 1000, 'learning_rate': 1, 'random_state': 0, 'max_depth': 10}
 # Time: 1:08:32.784953
-print ("GBC complete")"""
+print ("GBC complete")
 grid_search(MLPClassifier(),mlp_pg,X,Y)
 #{'algorithm': 'adam', 'hidden_layer_sizes': (400,), 'learning_rate': 'constant', 
 #'max_iter': 500, 'random_state': 0, 'alpha': 0.01}
 # Time: 0:24:42.396666
 print ("MLP complete")
-
-
-
-
-## 0:55:58.985242 to complete
