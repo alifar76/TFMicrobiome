@@ -30,7 +30,7 @@ Required Packages
 
 The Mac OS X, CPU only, Python 2.7 version of TensorFlow was installed via pip in a virtualenv on my MacBook Pro having OS X El Capitan Version 10.11.4.
 
-Additionally, I'm using [scikit-learn 0.17.1](http://scikit-learn.org/stable/install.html) to compare performance of more classical machine learning algorithms with deep learning methods in TensorFlow.
+Additionally, I'm using [scikit-learn 0.18.dev0](http://scikit-learn.org/stable/developers/advanced_installation.html#install-bleeding-edge) to compare performance of more classical machine learning algorithms with deep learning methods in TensorFlow.
 
 How to
 ------
@@ -47,8 +47,8 @@ Result
 ------
 
 ### TensorFlow models:
-- ``` Accuracy of [Softmax Regression model](https://www.tensorflow.org/versions/r0.9/tutorials/mnist/beginners/index.html):  0.909```
-- ``` Accuracy of [Convolutional Neural Network](https://www.tensorflow.org/versions/r0.8/tutorials/mnist/pros/index.html): 0.773 ```
+- ``` Accuracy of Softmax Regression:  0.909```
+- ``` Accuracy of Convolutional Neural Network: 0.773 ```
 
 ### scikit-learn models:
 - ``` Accuracy of Random Forest Classifier: 0.864 ```
@@ -57,9 +57,3 @@ Result
 - ``` Accuracy of Gaussian Naive Bayes Classifier: 0.909 ```
 - ``` Accuracy of Multi-layer Perceptron Classifier: 0.864 ```
 - ``` Accuracy of Blending: 0.909```
-
-Other models will be implemented soon.
-
-It's interesting to note that SVM, CNN, Gradient Boosting and SGD are giving almost identical performance. 
-Gaussian NB and Softmax are also giving identical performance.
-Experimentation with parameter tuning needs to be done more.
