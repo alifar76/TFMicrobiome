@@ -45,7 +45,7 @@ The output will be the accuracy of the model.
 In addition to this, there is a sub-directory called ```sklearn-comparison```, which has a bunch of scripts. The two mains scripts to run are:
 
 - ``` python sklearn_models.py ```
-- ``` blending.py ```
+- ``` python blending.py ```
 
 ``` sklearn_models.py ``` will run 5 different models implemented in scikit-learn and print the accuracy of each model. ```blending.py``` will perform blending of the 5 models and run logistic regression on top of it and return the final accuracy. 
 
